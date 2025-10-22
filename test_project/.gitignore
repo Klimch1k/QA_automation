@@ -1,0 +1,121 @@
+# ---- System files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE and Editor settings ----
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Node.js (если используешь JS/TS для автоматизации) ----
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# ---- Logs and temporary files ----
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ---- OS generated files ----
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# ---- Coverage and test reports ----
+.coverage
+coverage.xml
+test-results/
+reports/
+
+# ---- Environment files ----
+.env
+.env.*
+📦 Как быстро создать этот файл через терминал в VS Code
+Открой терминал (Ctrl + `) и выполни команду:
+
+bash
+Копировать код
+cat > .gitignore <<'EOF'
+# ---- System files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE and Editor settings ----
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# ---- Logs and temporary files ----
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ---- OS generated files ----
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# ---- Coverage and test reports ----
+.coverage
+coverage.xml
+test-results/
+reports/
+
+# ---- Environment files ----
+.env
+.env.*
+EOF
