@@ -1,0 +1,24 @@
+{
+  "name": "qa_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lesson_4_js_basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon test_project/lesson_4_js_basics.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klimch1k/QA_automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klimch1k/QA_automation/issues"
+  },
+  "homepage": "https://github.com/Klimch1k/QA_automation#readme",
+  "devDependencies": {
+    "cypress": "^15.5.0"
+  }
+}
