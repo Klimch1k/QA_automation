@@ -2,10 +2,10 @@
   "name": "qa_automation",
   "version": "1.0.0",
   "description": "",
-  "main": "lesson_4_js_basics.js",
+  "main": "lesson_5_hw.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon test_project/lesson_4_js_basics.js"
+    "dev": "nodemon test_project/lesson_5_hw.js"
   },
   "repository": {
     "type": "git",
