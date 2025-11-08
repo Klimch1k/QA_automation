@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "lesson_6_hw.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon test_project/lesson_6_hw.js"
+    "dev": "nodemon test_project/lesson_8_hw.js"
   },
   "repository": {
     "type": "git",
